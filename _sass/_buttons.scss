@@ -151,3 +151,46 @@
     font-size: $type-size-7;
   }
 }
+
+// my customization
+.dropDownBibtex, .dropDownAbstract{
+  display: none; 
+}
+
+@media (hover:hover){
+.btnId {
+  margin-top: 5px;
+  border: none;
+  background: #404040;
+  color: #ffffff !important;
+  font-weight: 100;
+  padding: 5px 10px 5px 10px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+}
+
+.btnId:hover {
+      color: #404040 !important;
+      font-weight: 700 !important;
+      letter-spacing: 3px;
+      background: none;
+      -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+      -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+      transition: all 0.3s ease 0s;
+  }
+}
+
+@media (hover:none), (hover:on-demand){
+  .btnId, .btnId:hover{
+  margin-top: 5px;
+  border: none;
+  background: #404040;
+  color: #ffffff !important;
+  font-weight: 100;
+  padding: 5px 10px 5px 10px;
+  border-radius: 6px;
+  display: inline-block;
+  }
+}

@@ -88,3 +88,11 @@ layout: default
     </div>
   {% endif %}
 </div>
+<script>
+  function activate(evt, key){
+      var tab_show = $('#' + key)
+      tab_show.toggle();
+      $('.dropDown').not(tab_show).hide();
+  }
+  
+  </script> 

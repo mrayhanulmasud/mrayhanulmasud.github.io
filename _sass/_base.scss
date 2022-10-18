@@ -92,21 +92,28 @@ abbr[data-original-title] {
 
 /* blockquotes */
 
+// blockquote {
+//   margin: 2em 1em 2em 0;
+//   padding-left: 1em;
+//   padding-right: 1em;
+//   font-style: italic;
+//   border-left: 0.25em solid $primary-color;
+
+//   cite {
+//     font-style: italic;
+
+//     &:before {
+//       content: "\2014";
+//       padding-right: 5px;
+//     }
+//   }
+// }
 blockquote {
-  margin: 2em 1em 2em 0;
-  padding-left: 1em;
-  padding-right: 1em;
+  //border: 1px solid black;
+  border-left: 5px solid #333333;
+  margin: 20px 0 20px 0;
+  padding: 2px 8px 2px 8px;
   font-style: italic;
-  border-left: 0.25em solid $primary-color;
-
-  cite {
-    font-style: italic;
-
-    &:before {
-      content: "\2014";
-      padding-right: 5px;
-    }
-  }
 }
 
 /* links */
