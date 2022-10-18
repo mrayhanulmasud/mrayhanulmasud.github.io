@@ -3,17 +3,17 @@ main:
   - title: "Short Bio"
     url: /#bio
 
-  - title: "Education"
-    url: /#education
+  - title: "Research"
+    url: /#research
 
-  - title: "Publications"
-    url: /#publications
-
-  - title: "Experience"
-    url: /#experience    
-    
   - title: "Projects"
     url: /#projects
+
+  - title: "Experience"
+    url: /#experience
+
+  - title: "Education"
+    url: /#education
     
   - title: "CV"
     url: /#cv
