@@ -1,18 +1,19 @@
-### 1. Graduate Student Researcher, `Jun 2022 - Present`
-*University of California, Riverside*  
-- My ongoing project aims to link and disambiguate common users across forums and platforms with the help of minimal informations.
-- Implemented frontend of [SourceFinder](http://www.source-finder.org) platform.
+**1. Graduate Student Researcher** `University of California, Riverside` `Jun 2022 - Present`  
+- Current research on User Disambiguation across security forums and Open Source Software Platforms
+- Developed frontend of [SourceFinder](http://www.source-finder.org) which provides access to the largest database of malware GitHub repositories  
+`Data Mining` `Pandas` `ReactJS` 
 
-### 2. Application Developer, `Jul 2020 - Aug 2021`
-*BGD e-GOV CIRT, Bangladesh*  
-- Developed the front end of a government owned video conferencing platform
-- Implemented the feature of generating meeting attendance report
-- Automated the server deployment process
 
-### 3. Software Engineer, `Jul 2018 - Jul 2020`
-*Kona Software Lab Ltd, Bangladesh*
-- Customized Ethereum Blockchain for the implementation of Kona Blockchain Platform
-- Introduced new transaction types in the modified platform
-- Setup Kona Blockchain Network for Performance Testing
-- Developed an Ethereum based Real Estate Development Management System (Prototype)    
+**2. Application Developer** `BGD e-GOV CIRT, Bangladesh` `Jul 2020 - Aug 2021` 
+- Contributed to the frontend of [Boithok](https://vc.bcc.gov.bd/), a Video Conferencing Platform used by several ministries of Bangladesh
+- Automated server deployment cycle which reduced the downtime of the system
+- Added new feature of downloading meeting attendance report which minimized the manual overhead  
+`Jitsi-Meet` `ReactJS` `Python` `Docker` `Bash`
+
+**3. Software Engineer** `Kona Software Lab Ltd, Bangladesh` `Jul 2018 - Jul 2020`
+- Contributed to the development of transaction management pipeline of Kona Blockchain Platform
+- Introduced new mechanism of template based smart contract deployment to prevent insecure transaction requests
+- Developed a PoC of Real Estate Management System based on Kona Blockchain Platform
+- Implemented lottery service interface Module of a Lottery Game Management System
+`Ethereum` `Solidity` `Java` `Spring Boot`
 
