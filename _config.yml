@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Md Rahynaul Masud"
+title                    : "Md Rayhanul Masud"
 title_separator          : "-"
-name                     : &name "Md Rahynaul Masud"
+name                     : &name "Md Rayhanul Masud"
 description              : &description "personal description"
 url                      : https://mrayhanulmasud.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Md Rayhanul Masud (he/him)"
+  name             : "Masud (He/Him)"
   avatar           : "profile.png"
-  bio              : "2nd year PhD student at UCR. Interested in Cyber Security, Machine Learning, Data Mining, and NLP"
+  bio              : "PhD student at UCR"
   location         : 
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
