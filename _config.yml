@@ -359,25 +359,6 @@ compress_html:
   ignore:
     envs: development
 
-# Top navigation
-navigation:
-  - title: "Biography"
-    url: /
-  - title: "Publications"
-    url: /publications/
-  - title: "Blog"
-    url: /blog/
-  - title: "Contact"
-    url: /contact/
-
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:name
-  service:
-    output: true
-    permalink: /:collection/:name
-
 # Top navigation (ensure these exist)
 navigation:
   - title: "Biography"
@@ -392,3 +373,41 @@ navigation:
     url: /blog/
   - title: "Contact"
     url: /contact/
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+plugins:
+  - jekyll-include-cache
+
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:name
+  service:
+    output: true
+    permalink: /:collection/:name
+  publications:
+    output: true
+    permalink: /:collection/:name
+
+# Front matter defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+  - scope:
+      path: ""
+      type: service
+    values:
+      layout: single
