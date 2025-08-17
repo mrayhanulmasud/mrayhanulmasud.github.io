@@ -369,3 +369,26 @@ navigation:
     url: /blog/
   - title: "Contact"
     url: /contact/
+
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:name
+  service:
+    output: true
+    permalink: /:collection/:name
+
+# Top navigation (ensure these exist)
+navigation:
+  - title: "Biography"
+    url: /
+  - title: "Publications"
+    url: /publications/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Service"
+    url: /service/
+  - title: "Blog"
+    url: /blog/
+  - title: "Contact"
+    url: /contact/
