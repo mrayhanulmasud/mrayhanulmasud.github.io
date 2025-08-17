@@ -80,5 +80,21 @@
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% endif %}
 
+{% if page.collection == "publications" %}
+  <p>
+  {% if post.code_url %}<a class="btn btn--primary btn--small" href="{{ post.code_url }}">Code</a>{% endif %}
+  {% if post.poster_url %}<a class="btn btn--small" href="{{ post.poster_url }}">Poster</a>{% endif %}
+  {% if post.paperurl %}<a class="btn btn--small" href="{{ post.paperurl }}">Paper</a>{% endif %}
+  </p>
+{% endif %}
+
+{% if page.collection == "publications" %}
+  <p>
+  {% if post.code_url %}<a class="btn btn--primary btn--small" href="{{ post.code_url }}">Code</a>{% endif %}
+  {% if post.poster_url %}<a class="btn btn--small" href="{{ post.poster_url }}">Poster</a>{% endif %}
+  {% if post.paperurl %}<a class="btn btn--small" href="{{ post.paperurl }}">Paper</a>{% endif %}
+  </p>
+{% endif %}
+
   </article>
 </div>
