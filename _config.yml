@@ -81,7 +81,7 @@ author:
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
-    title: 'Books'
+    title: "Md Rayhanul Masud"
   manuscripts:
     title: 'Journal Articles'    
   conferences:
@@ -217,6 +217,9 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
+  publications:
+    output: true
+    permalink: /:collection/:name
   teaching:
     output: true
     permalink: /:collection/:path/
@@ -355,3 +358,14 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Top navigation
+navigation:
+  - title: "Biography"
+    url: /
+  - title: "Publications"
+    url: /publications/
+  - title: "Blog"
+    url: /blog/
+  - title: "Contact"
+    url: /contact/

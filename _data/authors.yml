@@ -1,18 +1,16 @@
-# Authors
-
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Masud:
+  name: "Md Rayhanul Masud"
+  avatar: ""
+  bio: "PhD Candidate (4th year) @ UC Riverside — graduating June 2026. Research: software engineering × cybersecurity — GitHub ecosystem mining & retrieval."
+  location: "Riverside, CA"
+  email: "mmasu012@ucr.edu"
+  links:
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/citations?user=nY889B0AAAAJ"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/md-rayhanul-masud"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/<USERNAME>"
