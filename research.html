@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Rayhanul Masud - Research</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="main-nav">
+        <div class="container">
+            <a href="index.html" class="nav-brand">Md Rayhanul Masud</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research.html" class="active">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="teaching.html">Teaching</a></li>
+                <li><a href="cv.pdf" target="_blank" rel="noopener noreferrer">CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        
+        <section id="overview">
+            <h2>Research Overview</h2>
+            <p>
+                My research focuses on a central question: How do people behave and misbehave in the realm of software ecosystems? I study open-source ecosystems such as GitHub, where millions of developers create, reuse, and share code. These ecosystems reflect how people collaborate, innovate, and sometimes exploit shared software. My work integrates software engineering, cybersecurity, and data science to understand these patterns and to design tools that make open-source development safer, more transparent, and easier to explore.
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="projects">
+            <h2>Research Projects</h2>
+            
+            <div class="entry">
+                <div class="entry-header">
+                    <strong>Tracing Technogeek Identities (GeekMAN)</strong>
+                </div>
+                <div class="entry-body">
+                    <p>
+                        Many developers, particularly in hacking and gaming communities, use creative technogeek usernames such as <code>z3r0c001</code> or <code>B14CKH4K3R</code>. These stylized identities make it difficult to link the same person across different platforms.
+                    </p>
+                    <p>
+                        We developed GeekMAN, a systematic approach that connects technogeek usernames across forums, GitHub, and social platforms. The system translates leetspeak into readable text, splits complex handles into meaningful parts, and compares them using semantic similarity measures. GeekMAN achieved up to 86% precision on technogeek datasets, improving cross-platform linkage by 10-20 percentage points over previous methods. Our approach is available as a publicly accessible research tool.
+                    </p>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <strong>Searching and Understanding Code Ecosystems (MetaSim and RepoScope)</strong>
+                </div>
+                <div class="entry-body">
+                    <p>
+                        Developers frequently search GitHub to learn or reuse code, but existing search tools remain largely keyword-based and opaque. The key question that we address is: Given one GitHub repository, how can we find others that are similar in purpose and functionality?
+                    </p>
+                    <p>
+                        To answer this, we created MetaSim and RepoScope, two systems for exploring code ecosystems. MetaSim studies how metadata such as repository descriptions, topics, and README files define functional similarity, showing that combining these signals yields a more accurate and interpretable view of project relationships. RepoScope expands this work to support "search by example repository". It enables multi-level exploration from titles and metadata to source-code embeddings and visualizes clusters of related projects for clearer interpretation.
+                    </p>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <strong>Ongoing Work: Understanding Evolving Threats (Malware and Vulnerabilities)</strong>
+                </div>
+                <div class="entry-body">
+                    <p>
+                        A growing part of my research focuses on how harmful or vulnerable code spreads within open-source ecosystems. We are pursuing two main projects in this area:
+                    </D>
+                    <ul>
+                        <li>
+                            <strong>Malware Ecosystem on GitHub:</strong> We are studying the thousands of repositories on GitHub that host malicious or dual-use code. We aim to uncover the technical and social mechanisms that shape how these repositories are created, forked, maintained, and how they evolve.
+                        </li>
+                        <li>
+                            <strong>Orphy (Orphan Vulnerabilities):</strong> We are examining how vulnerabilities propagate across forks and clones, often remaining "orphaned" when patches fail to reach derivative projects. We analyze how trust, collaboration, and communication influence the adoption of fixes, combining social-network and software-artifact data to understand why orphan vulnerabilities persist.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Md Rayhanul Masud</p>
+        </div>
+    </footer>
+
+</body>
+</html>
